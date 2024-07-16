@@ -44,3 +44,7 @@
     - [Angular (Anthropomorphic)](#angular-anthropomorphic-4)
     - [Cylindrical](#cylindrical-4)
     - [SCARA](#scara-4)
+
+---
+
+© [COPYRIGHT] Hecho en México
