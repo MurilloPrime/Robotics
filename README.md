@@ -1,43 +1,46 @@
-**Robotics analysis for Kinematics, workspace and trajectory planning**
+# Robotics Analysis for Kinematics, Workspace, and Trajectory Planning
 
-[!NOTE]
-> DH PARAMETERS ARE STABLISHED TO A SPECIFIC POSITION OF THE ROBOT.
-DEPENDING ON YOUR ZERO POSITION ( HOME ), PARAMETERS MAY CHANGE.
+> **Note:**
+> - DH parameters are established to a specific position of the robot. Depending on your zero position (home), parameters may change.
+> - Home position of these 3 robots is shown later.
 
-> HOME POSITION OF THESE 3 ROBOTS ARE SHOWN LATER
+> **Tip:**
+> - All robots have only 3 axes. The same analysis can be followed for more axes.
 
-[!TIP]
-> ALL ROBOTS HAVE ONLY 3 AXIS. 
-SAME ANALYSIS CAN BE FOLLOWED FOR MORE AXIS.
-
-
-**Table of Contents**
-
-[TOC]
-
-#__DIRECT KINEMATICS__
-##DIRECT KINEMATICS _THEORY_
-##_ANGULAR (ANTROPOMORPHIC)_
-##_CILINDRICAL_
-##_SCARA_
-#__INVERSE KINEMATICS__
-##INVERSE KINEMATICS _THEORY_
-##_ANGULAR (ANTROPOMORPHIC)_
-##_CILINDRICAL_
-##_SCARA_
-#__WORKSPACE__
-## JACOBIAN MATRIX & JACOBIAN _THEORY_
-##_ANGULAR (ANTROPOMORPHIC)_
-##_CILINDRICAL_
-##_SCARA_
-#__TRAJECTORY PLANNING__
-##_LINEAL SPLINE_
-###THEORY
-###_ANGULAR (ANTROPOMORPHIC)_
-###_CILINDRICAL_
-###_SCARA_
-##_CUBIC SPLINE_
-###THEORY
-###_ANGULAR (ANTROPOMORPHIC)_
-###_CILINDRICAL_
-###_SCARA_
+## Table of Contents
+-[Robot construction]
+  - [Angular (Anthropomorphic)](#angular-anthropomorphic)
+    - [Home Position](#Home-Angular)
+    - [Links and joints](#LinksJointsA)
+  - [Cylindrical](#cylindrical)
+    - [Home Position](#Home-Cylindrical)
+    - [Links and joints](#LinksJointsC)
+  - [SCARA](#scara)
+    - [Home Position](#Home-SCARA)
+    - [Links and joints](#LinksJointsS)
+- [Direct Kinematics](#direct-kinematics)
+  - [Direct Kinematics Theory](#direct-kinematics-theory)
+  - [Angular (Anthropomorphic)](#angular-anthropomorphic)
+  - [Cylindrical](#cylindrical)
+  - [SCARA](#scara)
+- [Inverse Kinematics](#inverse-kinematics)
+  - [Inverse Kinematics Theory](#inverse-kinematics-theory)
+  - [Angular (Anthropomorphic)](#angular-anthropomorphic-1)
+  - [Cylindrical](#cylindrical-1)
+  - [SCARA](#scara-1)
+- [Workspace](#workspace)
+  - [Jacobian Matrix & Jacobian Theory](#jacobian-matrix--jacobian-theory)
+  - [Angular (Anthropomorphic)](#angular-anthropomorphic-2)
+  - [Cylindrical](#cylindrical-2)
+  - [SCARA](#scara-2)
+- [Trajectory Planning](#trajectory-planning)
+  - [Linear Spline](#linear-spline)
+    - [Theory](#theory)
+    - [Angular (Anthropomorphic)](#angular-anthropomorphic-3)
+    - [Cylindrical](#cylindrical-3)
+    - [SCARA](#scara-3)
+  - [Cubic Spline](#cubic-spline)
+    - [Theory](#theory-1)
+    - [Angular (Anthropomorphic)](#angular-anthropomorphic-4)
+    - [Cylindrical](#cylindrical-4)
+    - [SCARA](#scara-4)
