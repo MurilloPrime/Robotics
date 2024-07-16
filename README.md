@@ -1,13 +1,42 @@
-# Robotics analysis for Kinematics, workspace and trajectory planning
+** Robotics analysis for Kinematics, workspace and trajectory planning **
 
-Analysis for Angular, cilindrical and SCARA robots
+[!NOTE]
+> DH PARAMETERS ARE STABLISHED TO A SPECIFIC POSITION OF THE ROBOT.
+	DEPENDING ON YOUR ZERO POSITION ( HOME ), PARAMETERS MAY CHANGE.
 
-1.- It's necessary to stablish DH-Parameters firstly.
+> HOME POSITION OF THESE 3 ROBOTS ARE SHOWN LATER
+
+[!TIP]
+> ALL ROBOTS HAVE ONLY 3 AXIS. 
+SAME ANALYSIS CAN BE FOLLOWED FOR MORE AXIS.
 
 
-Direct Kinematics
-Inverse Kinematics
-Jacobian Matrix
-Trajectory Planning
-  Lineal Spline
-  Cubic Spline
+**Table of Contents**
+
+[TOC]
+#__DIRECT KINEMATICS__
+##DIRECT KINEMATICS _THEORY_
+##_ANGULAR (ANTROPOMORPHIC)_
+##_CILINDRICAL_
+##_SCARA_
+#__INVERSE KINEMATICS__
+##INVERSE KINEMATICS _THEORY_
+##_ANGULAR (ANTROPOMORPHIC)_
+##_CILINDRICAL_
+##_SCARA_
+#__WORKSPACE__
+## JACOBIAN MATRIX & JACOBIAN _THEORY_
+##_ANGULAR (ANTROPOMORPHIC)_
+##_CILINDRICAL_
+##_SCARA_
+#__TRAJECTORY PLANNING__
+##_LINEAL SPLINE_
+###THEORY
+###_ANGULAR (ANTROPOMORPHIC)_
+###_CILINDRICAL_
+###_SCARA_
+##_CUBIC SPLINE_
+###THEORY
+###_ANGULAR (ANTROPOMORPHIC)_
+###_CILINDRICAL_
+###_SCARA_
